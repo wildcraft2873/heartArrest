@@ -1,0 +1,292 @@
+.custom-shape-divider-bottom-1627305225 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   background-color: rgb(252, 248, 248);
+}
+html{
+   scroll-behavior: smooth;
+}
+.custom-shape-divider-bottom-1627305225 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 200px;
+}
+
+.custom-shape-divider-bottom-1627305225 .shape-fill {
+   
+   
+   fill: rgb(17, 17, 102);
+}
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+body{
+   overflow-x: hidden;
+}
+
+.header-section{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(17, 17, 102);
+}
+.header-section .menu-container{
+   width: 100%;
+   transition: 0.5s all;
+}
+.header-section .menu-container ul{
+   list-style-type: none;
+   margin: 50 0 0 100;
+   transition: 0.5s all;
+}
+.header-section .menu-bar{
+   display: none;
+}
+.header-section .menu-container ul li{
+display: inline;
+margin: 30px;
+}
+.header-section .menu-container ul li i{
+   font-size: 18px;
+   color: white;
+}
+.header-section .menu-container ul li a{
+   color: white;
+   text-decoration: none;
+   margin: 6px;
+   font-size: 20px;
+}
+.body-container{
+   display: flex;
+   gap: 20px;
+   font-size: 25px;
+   background-color: rgb(17, 17, 102);
+   height: 100vh;
+
+}
+.section1{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 200px 0 0 100px;
+   color: white;
+}
+.section1 button{
+   width: 130px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   background-color:rgb(230, 10, 193) ;
+   color: white;
+   cursor: pointer;
+   font-size: 18px;
+}
+.section1 button:hover{
+   background-color: rgb(230, 10, 193);
+}
+.section2{
+  padding: 200px 100px 0 0px;
+}
+.section1,.section2{
+   flex: 1;
+}
+.next-part{
+   display: flex;
+   margin-top: 100px;
+   width: 100%;
+   height: auto;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding:100px 0 150px 0;
+}
+.next-part div{
+   flex: 1 0 300px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   background-color: rgb(225, 225, 236);
+   height: 400px;
+   margin: 10px;
+   color: black;
+   padding: 20px;
+   border-radius: 10px;
+}
+.next-part div i{
+   font-size: 100px;
+   color: rgb(230, 10, 193);
+   background-color: rgb(17, 17, 102);
+   padding: 10px;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 50 0 50;
+  margin:100px 0 100px 0;
+}
+.images img{
+   height: 300px;
+   flex: 1 0 ;
+   width: 200px;
+  
+}
+.images img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.pricing-plans{
+   display: flex;
+   padding: 150px 100 150 100;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.pricing-plans .plans1,.plans2,.plans3{
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+   background-color: rgb(17, 17, 102);
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+   flex: 1 0 200px;
+}
+.pricing-plans div button{
+   width: 150px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   background-color:rgb(165, 21, 141) ;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   margin-top: 20px;
+}
+.about-me{
+   padding: 100px 30 100px 30;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.about-me p{
+   line-height: 30px;
+   background-color: rgb(225, 225, 236);
+   padding: 10px;
+   border-radius: 10px;
+}
+.contact{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   gap: 20px;
+   align-items: center;
+}
+.contact input,textarea{
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 10px;
+   width: 350px;
+   outline: none;
+}
+.contact button{
+   width: 150px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   background-color:rgb(165, 21, 141) ;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   margin-top: 20px;
+}
+#footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50 0 100 00px;
+   background-color: rgb(17, 17, 102);
+   color: white;
+   height: 50px;
+}
+#footer i{
+   font-size: 20px;
+   margin: 10px;
+}
+@media screen and (max-width:800px) {
+   .body-container{
+      font-size: 18px;
+   }
+   .section2{
+      display: none;
+   }
+   .header-section .menu-container ul{
+      background-color:  rgb(17, 17, 102);
+      margin: 0;
+      padding-top: 150px;
+      height: 100vh;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+      width: 100vw;
+      transition: 0.5s all;
+   }
+   .header-section .menu-container ul li{
+      display: flex;
+      justify-content: center;
+   }
+   .header-section .menu-container ul li i{
+      font-size: 20px;
+   }
+   .header-section .menu-container ul li a{
+      display: block;
+      width: auto;
+      font-size: 16px;
+      text-align: center;
+      color: rgb(196, 176, 176);
+   }
+  
+   .header-section .menu-bar{
+      margin: 20 0 0 40;
+      display: block;
+      font-size: 20px;
+      color: white;
+   }
+   .section1{
+      padding-top: 300px;
+   }
+}
+@media screen and (max-width:500px) {
+   .section1{
+      padding-left:40px ;
+   }
+   .next-part div{
+      height: 200px;
+      font-size: 18px;
+   }
+   .next-part div i{
+      font-size: 50px;
+   }
+   .pricing-plans{
+      padding: 150px 30 150 30;
+
+   }
+   .pricing-plans .plans1,.plans2,.plans3{
+
+   }
+}
